@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.home {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.home h1 {
+  font-size: 2.5em;
+}
+
+.gallery-preview {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.gallery-preview img {
+  width: 30%;
+  height: auto;
+}
+
+.latest-articles {
+  margin: 20px 0;
+}
+
+.latest-articles h2 {
+  font-size: 2em;
+}
+
+.latest-articles .article {
+  margin: 20px 0;
+}
+
+.about {
+  padding: 50px 20px;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.blog {
+  padding: 50px 20px;
+}
+
+.blog h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.blog .article {
+  display: flex;
+  margin: 20px 0;
+}
+
+.blog .article img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.blog .article h3 {
+  font-size: 1.5em;
+}
+
+.gallery {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.gallery img {
+  width: 25%;
+  height: auto;
+  margin: 1.66%;
+  display: inline-block;
+}
+
+.contact {
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.contact .info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.contact form label {
+  margin: 10px 0 5px;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.contact form button {
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #555;
+}
